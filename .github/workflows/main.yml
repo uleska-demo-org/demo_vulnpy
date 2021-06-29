@@ -29,6 +29,5 @@ jobs:
       - name: Run Uleska
         run: |
           python3 -m pip install requests uleska-automate
-          uleska-automate --uleska_host https://uleska-live-one.uleska.com/ --application_name uleska-demo-org-demo_vulnpy
---version_name v1 --token U.6f0e2d81-4eb9-4b49-8163-f77e4fe0b05e.yLDphVSvxL --test_and_results
+          uleska-automate --uleska_host https://uleska-live-one.uleska.com/ --application_name uleska-demo-org-demo_vulnpy --version_name v1 --token U.6f0e2d81-4eb9-4b49-8163-f77e4fe0b05e.yLDphVSvxL --test_and_results
 
